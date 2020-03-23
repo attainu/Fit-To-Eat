@@ -1,0 +1,21 @@
+{
+  "name": "Fit-To-Eat",
+  "version": "1.0.0",
+  "description": "Project done by Anubhav and Pallishree",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/Fit-To-Eat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attainu/Fit-To-Eat/issues"
+  },
+  "homepage": "https://github.com/attainu/Fit-To-Eat#readme"
+}
