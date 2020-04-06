@@ -46,7 +46,7 @@ router.post("/", async (req, res, next) => {
             return ("Your bmi: " + (c * 100) + ", You eat too much!!");
         }
         else {
-            return ("Your bmi: " + (c * 100) + ", You are really obsessed of eating!!");
+            return ("Your bmi: " + (c * 100) + ", You are really obsessed!!");
         }
     }
 });

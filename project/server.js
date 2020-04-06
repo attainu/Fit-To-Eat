@@ -12,7 +12,7 @@ var calorieCalculator = require("./routes/calorie-calculator")
 // var adminRoute = require('./routes/admin')
 // var catering=require('./routes/corporate-catering')
 var User = require('./models/users')
-var Admin = require('./models/admin')
+// var Admin = require('./models/admin')
 // middlewares
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
