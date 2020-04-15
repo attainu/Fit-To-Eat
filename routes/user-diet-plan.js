@@ -10,6 +10,7 @@ const User = require("../models/users")
 
 router.post('/', auth, async (req, res) => {
     try {
+
         const diet = await Diet.create(req.body, { include: [User] })
         res.status(200).json(diet)
     }
@@ -17,8 +18,8 @@ router.post('/', auth, async (req, res) => {
         console.log(err);
         return res.status(400).send(err);
     };
+    if (req.body.needMail == 'true') {
 
-    if (req.body.needmail == "true") {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
